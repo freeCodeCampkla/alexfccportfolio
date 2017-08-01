@@ -12,40 +12,37 @@
    rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">alex shyaka</a>
-          </div>
+<nav class="navbar navbar-toggleable-md navbar-dark bg-inverse navbar-full">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+<a class="navbar-brand" href="#"><img src="images/logo.png" alt="startup.logo" height="26"></a>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-       <!--    <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sign up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
-          </ul> -->
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-->
-    </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav pull-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Porfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-me">About me</a>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
     	
 	<div id="carousel-content">
 		<div class="row">
 			<div class="col-sm-2 col-sm-offset-10">
 				<div id="portfolio-img">
-    				<img class="thumbnail" src="./images/sample.jpg">
+    				<img class="thumbnail" src="images/me.JPG">
     			</div>	
 			</div>
 		</div>
@@ -56,95 +53,133 @@
 		</div>
 		
   </div>
-  <div class="portfolio-items"><!--beginning of portfolio items-->
-      <div class="row">
-        <div class="portfolio-image col-sm-4">
-          <img class="thumbnail img-responsive img-shape" src="images/rails-big.jpg" alt="">
-          <p class="portfolio-summary"> Lorem ipsum dolor
-             sit amet, consectetur adipisicing elit. Quisquam 
-             libero dolorem assumenda voluptates modi dicta cupiditate, 
-             nihil quae ducimus blanditiis sunt veniam, distinctio nobis 
-             repudiandae, et quia, quis unde dolor!Lorem ipsum dolor sit amet, 
-             consectetur adipisicing elit. Labore expedita repellendus sit, 
-             aut at sequi natus voluptates voluptatibus, illum a minus, eligendi 
-             veniam nihil corrupti libero provident eius quo tempore.</p>
-        </div>
-        
-      <div class="portfolio-image col-sm-4">
-        <img class="thumbnail img-responsive img-shape" src="images/rubyonrails.png" alt="">
-        <p class="portfolio-summary">Lorem ipsum dolor
-             sit amet, consectetur adipisicing elit. Quisquam 
-             libero dolorem assumenda voluptates modi dicta cupiditate, 
-             nihil quae ducimus blanditiis sunt veniam, distinctio nobis 
-             repudiandae, et quia, quis unde dolor!Lorem ipsum dolor sit amet, 
-             consectetur adipisicing elit. Labore expedita repellendus sit, 
-             aut at sequi natus voluptates voluptatibus, illum a minus, eligendi 
-             veniam nihil corrupti libero provident eius quo tempore.</p>
-      </div>
-      <div class="portfolio-image col-sm-4"> 
-        <img class="thumbnail img-responsive img-shape" src="images/rails-big.jpg" alt="">
-        <p class="portfolio-summary">Lorem ipsum dolor
-             sit amet, consectetur adipisicing elit. Quisquam 
-             libero dolorem assumenda voluptates modi dicta cupiditate, 
-             nihil quae ducimus blanditiis sunt veniam, distinctio nobis 
-             repudiandae, et quia, quis unde dolor!Lorem ipsum dolor sit amet, 
-             consectetur adipisicing elit. Labore expedita repellendus sit, 
-             aut at sequi natus voluptates voluptatibus, illum a minus, eligendi 
-             veniam nihil corrupti libero provident eius quo tempore..</p>
-      </div>
-      </div>
-  </div>  <!--End of portfolio images-->  
-    <section id="testimonial-heading">
-      <h2>Testimonials</h2>
-    </section>
-    <div class="testimonials"><!--beginning of portfolio images-->
-      <div class="row">
-        <div class="col-sm-3">
-          <img class="thumbnail img-responsive" src="./images/test-img1.jpeg" alt="">
-        </div>
-         <div class="col-sm-3">
-          <img class="thumbnail img-responsive" src="./images/test-img1.jpeg" alt="">
-        </div>
-         <div class="col-sm-3">
-          <img class="thumbnail img-responsive" src="./images/test-img1.jpeg" alt="">
-        </div>
-         <div class="col-sm-3">
-          <img class="thumbnail img-responsive" src="./images/test-img1.jpeg" alt="">
-        </div>
-      </div>
-    </div><!--End of testimonials-->		
-    
-  </div>	 <!--End of container-->
-  <footer>
-    <div class="row">
-      <div class="col-sm-3">
-        <p><a href="http://ww.railsshop.club">Therailsshop holiday coding clubs.</a></p>
-      </div>
-      <div class="col-sm-6">
-        <ul class="list-unstyled list-inline">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-      </ul>
-      </div>
-      <div class="social-icons col-sm-3">
-        <span><a href="#"><i class="fa fa-facebook fa-2x"></i></a></span>
-        <span><a href="#"><i class="fa fa-instagram fa-2x"></i></a></span>
-        <span><a href="#"><i class="fa fa-twitter fa-2x"></i></a></span>
-      </div>
-    </div>    
-  </footer>	
-</body>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
 
+
+  <section id="portfolio-details"><!--beginning of portfolio-details-->
+    <div class="container portfolio">
+      <h2 class="text-sm-center">Projects I have worked on.</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cupiditate possimus quo odit numquam ipsa sequi soluta vitae deserunt qui magni optio blanditiis dolorum sint, libero cumque eius nobis odio.</p>
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="images/rails-big.jpg" alt="Impression of a ruby representing ruby on rails as a portfolio item.">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+                    bit longer. Lorem ipsum dolor sit amet,
+                     consectetur adipisicing elit. Id quibusdam minus, 
+                     enim explicabo nobis, nulla harum ex natus rerum beatae magnam ducimus ullam, animi mollitia totam obcaecati consequuntur eveniet iure.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="images/rails-big.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="images/rails-big.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section><!--end of portfolio-details-->
+
+  <div class=" container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="images/me.JPG" alt="Generic placeholder image"
+          width="140" height="140">
+        <h2>alex shyaka</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id
+          elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="images/celebration.jpeg" alt="Generic placeholder image"
+          width="140" height="140">
+        <h2>micheal mbanda</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
+          purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="images/sample.jpg" alt="Generic placeholder image"
+          width="140" height="140">
+        <h2>chris kaweesa</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod
+          semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+          risus.</p>
+        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+    <!-- /.row --> 
+    </div>	 <!--End of container-->
+    <section id="about-me">
+      <div class="section-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>About me</h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Nihil quis, eaque sed. Eum earum amet, eaque 
+                consequuntur, commodi quidem laboriosam rerum optio officia 
+                tempore pariatur obcaecati nam maiores labore autem!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Consequuntur at blanditiis, sint voluptatem voluptatibus.
+                  </p>
+                <h5>Follow me on the interwebs.</h5>
+<a href="" class="btn btn-outline-success"><i class="fa fa-facebook fa-2x"></i></a>
+<a href="" class="btn btn-outline-success"><i class="fa fa-instagram fa-2x"></i></a>
+<a href="" class="btn btn-outline-success"><i class="fa fa-twitter fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--footer section  -->
+<footer id="footer-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <p>&copy; 2015. Therailsshop-holiday coding club.</p>
+        <p>coded by <a href="https://therailsshop.club">alex</a></p>
+      </div>
+      <div class="col-sm-4">
+        <ul class="list-unstyled">
+          <li><a href="">home</a></li>
+          <li><a href="">portfolio</a></li>
+          <li><a href="">about-me</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <ul class="list-unstyled">
+            <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+             <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li> 
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<!--Jquery first and then bootstrap js next  -->
+<script type="text/javascript" src="jquery/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </html>
