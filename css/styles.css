@@ -1,0 +1,77 @@
+
+body {
+	/* font-family: Lato; */
+	 /* font-family: 'Raleway', sans-serif;  */
+      font-family: 'Source Sans Pro', sans-serif;   
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#carousel-content{
+	background-image: url(../images/keep-shining.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	max-height: 350px;
+	text-align: center;
+	padding: 30px 30px;
+	
+}
+#carousel-content button{
+	margin-top: 100px;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: black;
+	text-transform: capitalize;
+	/*position: relative;*/
+	/*left: 10px;*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+#portfolio-img > img{
+	margin: 30px 10px 0 10px;
+	max-height: 150px;
+}
+.portfolio-items{
+	background-image: url("../images/portfolio-items-bg-color.jpg");
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.portfolio-summary{
+	text-align: justify;
+	padding: 10px;
+	font-size: 18px;	
+	/* -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility; */
+}
+#testimonial-heading > h2{
+	text-align: center;
+	border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+footer{
+	background-color: brown;
+	text-align: center;
+	height: auto;
+	font-size: 20px;
+	padding: 20px 0 40px;
+}
+/* footer p,li{
+	padding-top: 40px;
+} */
+footer a, footer a:hover{
+	color: black;
+}
+.social-icons > span{
+	padding: 5px;
+}
